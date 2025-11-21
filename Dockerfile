@@ -12,12 +12,14 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application code
-COPY backend/ ./backend/
-COPY contacts.db ./ 
+# Copy entire application
+COPY . .
+
+# Set Python path to include current directory
+ENV PYTHONPATH=/app
 
 # Expose port
 EXPOSE 8000
 
-# Start command
+# Start command - use the correct module path
 CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000"]
