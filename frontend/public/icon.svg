@@ -1,0 +1,7 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Contact AI Icon</title>
+  <rect width="256" height="256" rx="48" fill="#0f172a" />
+  <path d="M64 96h128v16H64zm0 48h96v16H64z" fill="#22d3ee" />
+  <circle cx="188" cy="164" r="28" fill="#22d3ee" />
+  <path d="M178 156h20v16h-20z" fill="#0f172a" />
+</svg>

@@ -1,0 +1,15 @@
+# Node modules
+frontend/node_modules/
+
+# Next build output
+frontend/.next/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local environments
+backend/.env
+frontend/.env.local
+.env
